@@ -9,7 +9,7 @@ const getMovieInfo =async (movie)=>{
     try {
         
     const myApiKey ="a24f1fbd";
-    const url = `http://www.omdbapi.com/?i=tt3896198&apikey=a24f1fbd&t=${movie}`;
+    const url = `https://www.omdbapi.com/?i=tt3896198&apikey=a24f1fbd&t=${movie}`;
 
     const response =await fetch(url);
     
